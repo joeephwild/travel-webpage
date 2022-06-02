@@ -11,6 +11,9 @@ import Mediumcard from '../components/Mediumcard'
 import shared from '../public/assets/share.jpg'
 import feel from '../public/assets/feel.jpg'
 import online from '../public/assets/online.jpg'
+import banner from '../public/assets/4cj.webp'
+import Footer from '../components/Footer'
+import Search from '../components/Search'
 
 
 
@@ -18,6 +21,7 @@ export default function Home() {
   return (
     <>
      <Hero />
+     <Search />
      <main className='max-w-7xl mx-auto px-8 sm:px-16'>
      <section className="pt-6">
      <h2 className='text-xl font-bold'>Explore Nearby</h2>
@@ -36,19 +40,21 @@ export default function Home() {
       </section>
 
       <section >
-          <div className='flex space-x-3 rounded-xl overflow-scroll scrollbar-hide p-3 -ml-3'>
-            <h2>Discover Experiences</h2>
-            <p>unique activities with local experts--in person</p>
-          <Mediumcard img={shared} title="outdoor gateways"/>
-        <Mediumcard img={feel} title="Unique Stays"/>
-        <Mediumcard img={online} title="Entire Home"/>
-        
+          <div>
+            <h2 className="font-bold text-lg">Discover Experiences</h2>
+            <p className='text-sm py-2'>unique activities with local experts--in person</p>
+           <div  className='flex space-x-3 rounded-xl overflow-scroll scrollbar-hide p-3 -ml-3'>
+            <Mediumcard img={shared} title="enjoy every moment"/>
+             <Mediumcard img={feel} title="Special Experience"/>
+               <Mediumcard img={online} title="Online experience"/>
           </div>
-        
+          <div className='text-center mx-auto'>
+          <Largecard img={banner} title="Try Hosting" text="Earn extra income and unlock new opportunityies by sharing your space" buttontext="learn more"/>
+          </div>
+          </div>
       </section>
-
      </main>
-    
+       <Footer />
     </>
   )
 }

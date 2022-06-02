@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
-import hero from '../public/assets/herobg.jpg'
+import hero from '../public/assets/hero.jpg'
 
 const Hero = () => {
-    const [value, setValue] = useState('$500 - $6000');
+  const [value, setValue] = useState('$500 - $6000');
     
    
 
@@ -32,26 +32,7 @@ const Hero = () => {
     </div>
 
 
-    <div className="bg-white absolute border-bold border-pink-600 border-4 bottom-[-12rem] left-0 p-[2rem] lg:hidden block">
-     <form className="flex-col space-y-12 items-center justify-end gap-[3rem]">
-         <div className="flex-col text-start">
-         <label className="text-slate-300 py-2">Where to</label>
-         <select className="text-pink-600 px-5  border-none outline-none focus:outline-none">
-             <option>Nigeria</option>
-             <option>United Kingdom</option>
-         </select>
-         </div>
-         <div>
-         <label className="text-slate-300 py-2">Check in</label>
-         <input type="date" className="text-pink-600 px-5 border-none outline-none focus:outline-none"/>
-         </div>
-         <div>
-         <label className="text-slate-300 py-2">Price</label>
-         <input  type="text" value={value} onChange={(e) => setValue(e.target.value)} className="text-pink-600 px-5 border-none outline-none focus:outline-none"/>
-        </div>
-         <button className="bg-pink-600 px-3 py-2 w-full text-lg text-white font-bold rounded-full">submit</button>
-     </form>
-    </div>
+    
   </div>;
 };
 
