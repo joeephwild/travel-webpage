@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Image from 'next/image'
 import Navbar from '../components/Navbar'
-import hero from '../public/assets/hero.jpg'
+import hero from '../public/assets/herobg.jpg'
 
 const Hero = () => {
     const [value, setValue] = useState('$500 - $6000');

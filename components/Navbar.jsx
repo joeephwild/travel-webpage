@@ -15,7 +15,7 @@ const Navbar = () => {
      links: 'flex space-x-4 hidden font-bold lg:flex',
      brandImg: 'cursor-pointer',
      toogle: 'block z-10 p-4 md:hidden',
-     linkitems: 'flex space-x-4',
+     linkitems: 'flex text-white space-x-4',
      mdLink: 'flex-col p-42 text-white m-[40%] text-xl lg:text-3xl space-y-12 border-r-gray-900 '
 }
        return <div className={style.container}>
