@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+li{
+    @apply  hover:bg-white w-fit hover:text-black pl-3 px-3 cursor-pointer rounded-xl;
+}
