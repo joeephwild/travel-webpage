@@ -17,14 +17,14 @@ function Footer() {
         <p>This is not a real site</p>
         <p>Its a pretty awesome clone</p>
         <p>Referalls accepted</p>
-        <p>Sean OReilly - Frontend Dev</p>
+        <p>Joseph omotade - Frontend Dev</p>
       </div>
       <div className=" space-y-4 text-xs text-gray-800">
         <h5 className="font-bold">HOST</h5>
-        <p>Sean OReilly</p>
+        <p>Joseph omotadem  </p>
         <p>Presents</p>
-        <p>This pretty awesome Airbnb clone</p>
-        <a className="block text-blue-400" href="https://www.seanpatrick.io">
+        <p>This pretty awesome traveling app</p>
+        <a className="block text-blue-400" href="https://my-portfolio-ebon-psi.vercel">
           Check out my portfolio!
         </a>
         <p>Experienced Frontend Developer</p>

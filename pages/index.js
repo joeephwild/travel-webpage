@@ -14,6 +14,7 @@ import online from '../public/assets/online.jpg'
 import banner from '../public/assets/4cj.webp'
 import Footer from '../components/Footer'
 import Search from '../components/Search'
+import Place from '../components/Place'
 
 
 
@@ -53,6 +54,7 @@ export default function Home() {
           </div>
           </div>
       </section>
+      <Place/>
      </main>
        <Footer />
     </>
